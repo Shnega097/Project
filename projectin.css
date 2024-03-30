@@ -1,0 +1,113 @@
+
+     body {
+        margin: 0;
+        padding: 0%;
+        background-image: url(https://t3.ftcdn.net/jpg/06/25/61/56/360_F_625615610_2NuklyLR5edRVNAnMmG7RSDcPG8Jn4Ps.jpg);
+        background-size: cover;
+        font-family: 'Arial', sans-serif;
+         }
+    
+    .navbar {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }    
+    .logo{
+      display: flex;
+    }
+    
+    .logo img {
+        width: 40px; 
+        height: auto; 
+    }
+    .search-cart {
+        display: flex;
+        align-items: center;
+       
+    }
+    
+    input[type="text"] {
+        padding: 5px;
+        margin-right: 10px;
+         border-radius: 2px;
+    }
+    
+    #cart-btn {
+        background-color: red;
+        color: #fff;
+        /* padding: 8px 15px; */
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+        width: 100px;
+    }
+    
+    #cart-btn img {
+        width: 20px; 
+        height: auto;
+        margin-right: 5px;
+    }
+    #logo{
+      color: white;
+      text-shadow: 2px 2px 2px red;
+    padding-top: 8px;
+    font-size: larger;
+    } 
+
+.img{
+   border-radius: 5px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.a{
+    margin-top: 10px;
+    display: block;
+    color: white;
+}
+.b{
+    display: flex;
+}
+.button{
+    background-color: black;
+    margin-top: 5px;
+     margin-left: 20px; 
+    width: 40px;
+    height: 30px;
+}
+.btn{
+    background-color: black;
+    margin-top: 5px;
+     margin-left: 20px; 
+    width: 40px;
+    height: 30px;
+
+}
+.img1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.img2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+
+
+
+
+

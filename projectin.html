@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BOOKS</title>
+    <link rel="stylesheet" href="projectin.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Babylonica&family=Grape+Nuts&family=Meie+Script&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+     </head>
+  <body>
+     <nav class="navbar">
+      <div class="logo">
+          <img src="https://cdn-icons-png.flaticon.com/128/4334/4334124.png"  alt="Your Logo" width="50%">
+          <u><em><p id="logo">HORROR WORLD</p></em></u>
+      </div>
+
+
+<!-- add to cart -->
+
+<div class="offcanvas-header">
+  <h5 class="offcanvas-title" id="offcanvasExamplecart">Product Cart</h5>
+  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+  <div id="cart">
+    <ul id="cart-items">
+
+
+    </ul>
+    <p>Total Price: $<span id="total-price">0.00</span></p>
+</div>
+<button type="button" onclick="clearCart()" class="btn btn-danger">Clear</button>
+<button class="btn btn-success" onclick="proceed()">Proceed</button>
+
+
+  
+</div>
+</div>
+     
+      <div class="search-cart">
+          <input type="text" placeholder="Search...">
+           <button id="cart-btn" class="btn add-to-cart" >
+              <img src="https://cdn-icons-png.flaticon.com/128/3839/3839363.png" alt="Cart">
+              Add to Cart
+          </button> 
+      </div>
+    </nav> 
+
+    <div class="img">
+
+       <div class="a"> 
+      <img src="https://m.media-amazon.com/images/I/51IzeRM6KkL.jpg" alt=" " width="200px" >
+      <div class="b">
+        <p >Rs:1000</p>
+        <button class="button"><img src="https://cdn-icons-png.flaticon.com/128/10307/10307888.png" width="25px" height="25px" alt=""></button>
+       <button class="btn"><img src="https://cdn-icons-png.flaticon.com/128/6021/6021267.png" width="25px" height="25px" alt=""></button>
+      </div>
+     </div> 
+
+     <div class="a"> 
+      <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1584301526i/52403672.jpg" alt="" width="200px">
+      <div class="b">
+      <p >Rs:1599</p>
+      <button class="button"><img src="https://cdn-icons-png.flaticon.com/128/10307/10307888.png" width="25px" height="25px" alt=""></button>
+      <button class="btn"><img src="https://cdn-icons-png.flaticon.com/128/6021/6021267.png" width="25px" height="25px" alt=""></button>
+    </div>
+    </div> 
+
+      <div class="a"> 
+        <img src="https://s3.r29static.com/bin/entry/754/x,80/2030551/image.jpg" alt="" width="200px">
+        <div class="b">
+        <p >Rs:890</p>
+        <button class="button"><img src="https://cdn-icons-png.flaticon.com/128/10307/10307888.png" width="25px" height="25px" alt=""></button>
+        <button class="btn"><img src="https://cdn-icons-png.flaticon.com/128/6021/6021267.png" width="25px" height="25px" alt=""></button>
+      </div>
+      </div> 
+
+        <div class="a"> 
+          <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1585590362-515vihg3ytL.jpg" alt="" width="200px">
+          <div class="b">
+          <p >Rs:990</p>
+          <button class="button"><img src="https://cdn-icons-png.flaticon.com/128/10307/10307888.png" width="25px" height="25px" alt=""></button>
+          <button class="btn"><img src="https://cdn-icons-png.flaticon.com/128/6021/6021267.png" width="25px" height="25px" alt=""></button>
+        </div> 
+      </div>
+
+        <div class="a"> 
+          <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1669061771-best-horror-books-last-house-needless-1669061707.jpg?crop=1xw:0.98671875xh;center,top&resize=980:*" alt="" width="205px" >
+          <div class="b">
+          <p >Rs:870</p>
+        <button class="button"><img src="https://cdn-icons-png.flaticon.com/128/10307/10307888.png" width="25px" height="25px" alt=""></button>
+        <button class="btn"><img src="https://cdn-icons-png.flaticon.com/128/6021/6021267.png" width="25px" height="25px" alt=""></button>
+      </div> 
+    </div>
+
+        <div class="a"> 
+          <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1696250033-91MU2t8wtKL.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="" width="205px" >
+          <div class="b">
+          <p >Rs:1566</p>
+          <button class="button"><img src="https://cdn-icons-png.flaticon.com/128/10307/10307888.png" width="25px" height="25px" alt=""></button>
+          <button class="btn"><img src="https://cdn-icons-png.flaticon.com/128/6021/6021267.png" width="25px" height="25px" alt=""></button>
+        </div>
+        </div> 
+        </div>
+
+
+    
+        <div class="img1">
+
+          <div class="a"> 
+         <img src="https://img.buzzfeed.com/buzzfeed-static/static/2018-10/5/15/asset/buzzfeed-prod-web-05/sub-buzz-13709-1538769599-1.jpg?downsize=700%3A%2A&output-quality=auto&output-format=auto" alt=" " width="180px" >
+         <div class="b">
+           <p >Rs:1000</p>
+           <button class="button"><img src="https://cdn-icons-png.flaticon.com/128/10307/10307888.png" width="25px" height="25px" alt=""></button>
+          <button class="btn"><img src="https://cdn-icons-png.flaticon.com/128/6021/6021267.png" width="25px" height="25px" alt=""></button>
+         </div>
+        </div> 
+   
+        <div class="a"> 
+         <img src=https://img.buzzfeed.com/buzzfeed-static/static/2018-10/5/15/asset/buzzfeed-prod-web-05/sub-buzz-13739-1538769562-1.jpg?downsize=900:*&output-format=auto&output-quality=auto" alt="" width="200px">
+         <div class="b">
+         <p >Rs:1299</p>
+         <button class="button"><img src="https://cdn-icons-png.flaticon.com/128/10307/10307888.png" width="25px" height="25px" alt=""></button>
+         <button class="btn"><img src="https://cdn-icons-png.flaticon.com/128/6021/6021267.png" width="25px" height="25px" alt=""></button>
+       </div>
+       </div> 
+   
+         <div class="a"> 
+           <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1692809375-how-to-sell-a-haunted-house-best-horror-books-64e6388db84e7.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="" width="200px">
+           <div class="b">
+           <p >Rs:999</p>
+           <button class="button"><img src="https://cdn-icons-png.flaticon.com/128/10307/10307888.png" width="25px" height="25px" alt=""></button>
+           <button class="btn"><img src="https://cdn-icons-png.flaticon.com/128/6021/6021267.png" width="25px" height="25px" alt=""></button>
+         </div>
+         </div> 
+   
+           <div class="a"> 
+             <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1658717914-41Mesyqsn7L._SL500_.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="" width="200px">
+             <div class="b">
+             <p >Rs:1145</p>
+             <button class="button"><img src="https://cdn-icons-png.flaticon.com/128/10307/10307888.png" width="25px" height="25px" alt=""></button>
+             <button class="btn"><img src="https://cdn-icons-png.flaticon.com/128/6021/6021267.png" width="25px" height="25px" alt=""></button>
+           </div> 
+         </div>
+   
+           <div class="a"> 
+             <img src="https://i0.wp.com/www.owlbookworld.com/wp-content/uploads/2022/05/And-the-trees-crept-in.jpg?resize=203%2C300&ssl=1" alt="" width="205px" >
+             <div class="b">
+             <p >Rs:1670</p>
+           <button class="button"><img src="https://cdn-icons-png.flaticon.com/128/10307/10307888.png" width="25px" height="25px" alt=""></button>
+           <button class="btn"><img src="https://cdn-icons-png.flaticon.com/128/6021/6021267.png" width="25px" height="25px" alt=""></button>
+         </div> 
+       </div>
+   
+           <div class="a"> 
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCDhKX_oUjOQ7bg0aY9jn0JHSgmRp49m0ujKrzy8YJrBuBUB1glgzcc5TqN-9x4s7efiU&usqp=CAU" alt="" width="205px" >
+             <div class="b">
+             <p >Rs:650</p>
+             <button class="button"><img src="https://cdn-icons-png.flaticon.com/128/10307/10307888.png" width="25px" height="25px" alt=""></button>
+             <button class="btn"><img src="https://cdn-icons-png.flaticon.com/128/6021/6021267.png" width="25px" height="25px" alt=""></button>
+           </div>
+           </div> 
+           </div>
+
+           <div class="img2">
+
+            <div class="a"> 
+           <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9tImS7OIqNNvuLk-aqPRg2TZl94UqM89wSCyH_YxPbMorhGVGW4LdFFAThr5rdKcPnBw&usqp=CAU" alt=" " width="200px" >
+           <div class="b">
+             <p >Rs:1870</p>
+             <button class="button"><img src="https://cdn-icons-png.flaticon.com/128/10307/10307888.png" width="25px" height="25px" alt=""></button>
+            <button class="btn"><img src="https://cdn-icons-png.flaticon.com/128/6021/6021267.png" width="25px" height="25px" alt=""></button>
+           </div>
+          </div> 
+     
+          <div class="a"> 
+           <img src="https://res.cloudinary.com/hzpwrwfdi/image/upload/w_220/media/covers/c5e69770d18a7c1466050cbb2879f50b_qagkbw" alt="" width="200px">
+           <div class="b">
+           <p >Rs:1560</p>
+           <button class="button"><img src="https://cdn-icons-png.flaticon.com/128/10307/10307888.png" width="25px" height="25px" alt=""></button>
+           <button class="btn"><img src="https://cdn-icons-png.flaticon.com/128/6021/6021267.png" width="25px" height="25px" alt=""></button>
+         </div>
+         </div> 
+     
+           <div class="a"> 
+             <img src="https://s2982.pcdn.co/wp-content/uploads/2021/08/the-ritual-by-adam-nevill-book-cover.jpg.optimal.jpg" alt="" width="200px">
+             <div class="b">
+             <p >Rs:1080</p>
+             <button class="button"><img src="https://cdn-icons-png.flaticon.com/128/10307/10307888.png" width="25px" height="25px" alt=""></button>
+             <button class="btn"><img src="https://cdn-icons-png.flaticon.com/128/6021/6021267.png" width="25px" height="25px" alt=""></button>
+           </div>
+           </div> 
+     
+             <div class="a"> 
+               <img src="https://img.buzzfeed.com/buzzfeed-static/static/2023-10/17/22/asset/0a1a653f11ca/sub-buzz-2595-1697583320-1.jpg" alt="" width="200px">
+               <div class="b">
+               <p >Rs:500</p>
+               <button class="button"><img src="https://cdn-icons-png.flaticon.com/128/10307/10307888.png" width="25px" height="25px" alt=""></button>
+               <button class="btn"><img src="https://cdn-icons-png.flaticon.com/128/6021/6021267.png" width="25px" height="25px" alt=""></button>
+             </div> 
+           </div>
+     
+             <div class="a"> 
+               <img src="https://booksandbao.com/wp-content/uploads/2022/09/the-book-of-accidents-659x1000.jpeg" alt="" width="205px" >
+               <div class="b">
+               <p >Rs:800</p>
+             <button class="button"><img src="https://cdn-icons-png.flaticon.com/128/10307/10307888.png" width="25px" height="25px" alt=""></button>
+             <button class="btn"><img src="https://cdn-icons-png.flaticon.com/128/6021/6021267.png" width="25px" height="25px" alt=""></button>
+           </div> 
+         </div>
+     
+             <div class="a"> 
+               <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1692810585-hidden-pictures-best-horror-books-64e63d46eefb0.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="" width="205px" >
+               <div class="b">
+               <p >Rs:1500</p>
+               <button class="button"><img src="https://cdn-icons-png.flaticon.com/128/10307/10307888.png" width="25px" height="25px" alt=""></button>
+               <button class="btn"><img src="https://cdn-icons-png.flaticon.com/128/6021/6021267.png" width="25px" height="25px" alt=""></button>
+             </div>
+             </div> 
+             </div>
+       
+   
+
+             <script>
+              // Select all buttons with the class 'add-to-cart'
+              const addToCartButtons = document.querySelectorAll('. btn ');
+              const cartItemsElement = document.getElementById('.btn add-to-cart');
+              const cartTotalElement = document.getElementById('cart-total');
+          
+              let cartItems = [];
+              let cartTotal = 0;
+          
+              addToCartButtons.forEach(button => {
+                  button.addEventListener('click', () => {
+                      const productElement = button.parentNode;
+                      const productName = productElement.dataset.name;
+                      const productPrice = parseFloat(productElement.dataset.price);
+          
+                      cartItems.push({ name: productName, price: productPrice });
+                      cartTotal += productPrice;
+          
+                      renderCart();
+                  });
+              });
+          
+              function renderCart() {
+                  cartItemsElement.innerHTML = '';
+                  cartItems.forEach(item => {
+                      const li = document.createElement('li');
+                      li.textContent = `${item.name} - $${item.price}`;
+                      cartItemsElement.appendChild(li);
+                  });
+                  cartTotalElement.textContent = cartTotal.toFixed(2);
+              }
+          </script>
+
+  
+
+  </body>
+</html>
